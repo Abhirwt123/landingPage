@@ -1,0 +1,447 @@
+@import url("https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@400;700&family=Poppins&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.container {
+  max-width: 125rem;
+  margin: 0 auto;
+}
+
+.btn {
+  padding: 0.8rem 1.2rem;
+  outline: transparent;
+  border: transparent;
+  border-radius: 1rem;
+  font-size: 1.6rem;
+}
+
+.btn-white {
+  background-color: white;
+}
+
+.btn-yellow {
+  background-color: rgb(255, 217, 0);
+}
+
+.header-wrapper {
+  background-color: black;
+  color: white;
+}
+.header-wrapper .header-card,
+.header-wrapper .right-sec {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+}
+.header-wrapper .header-card .left-logo {
+  font-size: 3.2rem;
+  font-weight: bold;
+}
+.header-wrapper .header-card .right-sec {
+  gap: 2rem;
+}
+.header-wrapper .header-card .right-sec p {
+  font-size: 1.6rem;
+}
+
+.banner {
+  background: #000;
+  color: white;
+}
+.banner .welcome-site-box {
+  padding-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.banner .welcome-site-box .banner-details {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1rem;
+}
+.banner .welcome-site-box .banner-details P {
+  font-size: 1.6rem;
+}
+.banner .welcome-site-box .banner-details .welcome-title {
+  font-size: 3.4rem;
+  font-weight: bold;
+}
+.banner .welcome-site-box .banner-details .welcome-info {
+  font-size: 2.2rem;
+}
+.banner .welcome-site-box .banner-details .btn {
+  padding: 0.8rem 6rem;
+  margin-bottom: 1rem;
+}
+.banner .welcome-site-box .person-image {
+  width: 20%;
+}
+.banner .welcome-site-box .person-image img {
+  width: 100%;
+}
+
+.delivery {
+  margin-top: 6rem;
+}
+.delivery .delivery-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.delivery .delivery-wrap p {
+  margin-bottom: 1rem;
+  text-align: center;
+}
+.delivery .delivery-wrap .delivery-title {
+  font-size: 2.2rem;
+  font-weight: bold;
+}
+.delivery .delivery-wrap .delivery-sub-titles {
+  font-size: 1.6rem;
+}
+.delivery .delivery-wrap .delivery-cost {
+  font-size: 2.4rem;
+  font-weight: bold;
+}
+
+.categories {
+  margin-top: 4rem;
+}
+.categories .categories-wrap .catg-title {
+  text-align: center;
+  font-size: 3.4rem;
+  font-weight: bold;
+}
+.categories .categories-wrap .catg-card {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.categories .categories-wrap .catg-card .catg-items {
+  width: 25rem;
+  background-color: white;
+  border: 0.1rem solid grey;
+  padding: 1rem 1.2rem;
+  border-radius: 1rem;
+}
+.categories .categories-wrap .catg-card .catg-items img {
+  width: 100%;
+  height: 10.2rem;
+}
+.categories .catg-item-details {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.categories .catg-item-details .details-image {
+  flex-basis: 40%;
+}
+.categories .catg-item-details .details-image img {
+  width: 100%;
+  padding: 14rem;
+}
+.categories .details-info {
+  flex-basis: 60%;
+}
+.categories .details-info .info-title {
+  font-weight: bold;
+  font-size: 2rem;
+}
+.categories .details-info .info-des {
+  font-size: 1.6rem;
+  margin: 1rem 0;
+}
+.categories .details-info button {
+  color: rgb(255, 217, 0);
+  background-color: transparent;
+}
+
+.set-rate {
+  margin-top: 4rem;
+}
+.set-rate .set-rate-wrap {
+  background-color: rgb(238, 237, 237);
+  padding: 2rem 6rem;
+  border-radius: 2rem;
+}
+.set-rate .set-rate-wrap .set-rate-title {
+  text-align: center;
+  font-size: 2.4rem;
+  font-weight: bold;
+}
+.set-rate .set-rate-wrap .set-rate-card {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8rem;
+}
+.set-rate .set-rate-wrap .set-rate-card .set-rate-items {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 0.1rem solid;
+  padding: 1rem 6.2rem;
+  border-radius: 2rem;
+}
+.set-rate .set-rate-wrap .set-rate-card .set-rate-items p {
+  text-align: center;
+}
+.set-rate .set-rate-wrap .set-rate-card .set-rate-items .rate-info .rate-info-title {
+  margin-bottom: 1rem;
+}
+.set-rate .set-rate-wrap .set-rate-card .set-rate-items:hover {
+  background-color: rgb(255, 217, 0);
+  cursor: pointer;
+}
+
+.trust {
+  margin-top: 4rem;
+  background: url(../images/Mask\ Group\ 163.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+.trust .trust-wrap .trust-title {
+  font-size: 2.2rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+.trust .trust-wrap .trust-info {
+  font-size: 1.6rem;
+  text-align: center;
+}
+.trust .trust-wrap .trust-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 71%;
+  margin: 0 auto;
+}
+.trust .trust-wrap .trust-card .trust-box {
+  border-radius: 1rem;
+  border: 1px solid;
+  padding: 5rem 4rem;
+  flex-basis: 50%;
+  background-color: yellow;
+  text-align: center;
+  font-size: 1.6rem;
+}
+.trust .trust-wrap .trust-card .trust-box .symbol {
+  font-size: 8rem;
+  font-weight: bold;
+}
+.trust .trust-wrap .trust-card .trust-box .writer {
+  font-weight: bold;
+}
+.trust .trust-wrap .trust-card .trust-img {
+  flex-basis: 50%;
+}
+.trust .trust-wrap .trust-card .trust-img img {
+  width: 100%;
+}
+
+.how-we-work {
+  margin-top: 4rem;
+}
+.how-we-work .how-we-work-wrap .title {
+  font-size: 2.4rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+.how-we-work .how-we-work-wrap .info {
+  text-align: center;
+  font-size: 1.6rem;
+}
+.how-we-work .how-we-work-wrap .how-work-card {
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  background: rgb(204, 202, 202);
+  padding: 1rem 2rem;
+}
+.how-we-work .how-we-work-wrap .how-work-card .left-info-sec {
+  flex-basis: 40%;
+}
+.how-we-work .how-we-work-wrap .how-work-card .left-info-sec .left-info-box {
+  margin-bottom: 1.2rem;
+}
+.how-we-work .how-we-work-wrap .how-work-card .left-info-sec .left-info-box .info-title {
+  font-weight: bold;
+  font-size: 2rem;
+}
+.how-we-work .how-we-work-wrap .how-work-card .left-info-sec .left-info-box .info-detail {
+  font-size: 1.6rem;
+}
+.how-we-work .how-we-work-wrap .how-work-card .right-img-sec {
+  flex-basis: 60%;
+}
+.how-we-work .how-we-work-wrap .how-work-card .right-img-sec img {
+  width: 100%;
+  padding: 2rem;
+}
+
+.paid-banner {
+  margin-top: 4rem;
+  background: url(../images/woman-taking-e-learning-courses.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 12rem 6rem;
+}
+.paid-banner .paid-wrap .paid-title {
+  font-size: 3rem;
+  color: white;
+  font-weight: bold;
+}
+.paid-banner .paid-wrap .paid-info {
+  color: white;
+  font-size: 1.6rem;
+  margin: 1rem 0;
+}
+.paid-banner .paid-wrap button {
+  margin-top: 1rem;
+  padding: 0.8rem 6rem;
+}
+
+.student-count {
+  margin-top: 4rem;
+  background-image: url(../images/cvbnm.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 100%;
+  height: 35vh;
+}
+.student-count .student-count-wrap {
+  display: flex;
+  justify-content: center;
+  gap: 12rem;
+  padding-top: 5rem;
+  padding-left: 6rem;
+}
+.student-count .student-count-wrap p {
+  font-size: 3rem;
+  font-weight: bold;
+  text-align: center;
+}
+.student-count .student-count-wrap p span {
+  font-size: 2rem;
+}
+
+.free-account {
+  margin-top: 4rem;
+  background-image: linear-gradient(to bottom, rgba(71, 72, 77, 0.37), rgba(87, 82, 85, 0.466)), url("../images/Mask Group 155.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 12rem 6rem;
+}
+.free-account .free-account-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.free-account .free-account-wrap .free-account-title {
+  font-size: 3rem;
+  color: white;
+  font-weight: bold;
+}
+.free-account .free-account-wrap .free-account-info {
+  color: white;
+  font-size: 1.6rem;
+  margin: 1rem 0;
+}
+
+footer {
+  background-color: black;
+  padding: 2rem 6rem;
+}
+footer .footer-wrap {
+  display: flex;
+  color: white;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+footer .footer-wrap .footer-items {
+  flex-basis: 25%;
+}
+footer .footer-wrap .footer-items ul li {
+  list-style: none;
+  font-size: 1.4rem;
+}
+footer .footer-wrap .footer-items ul .footer-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+
+@media only screen and (max-width: 768px) {
+  html {
+    font-size: 45%;
+  }
+  .header-wrapper .header-card {
+    display: block;
+  }
+  .header-wrapper .header-card .left-logo {
+    text-align: center;
+  }
+  .header-wrapper .header-card .right-sec {
+    display: none;
+  }
+  .banner .welcome-site-box {
+    justify-content: center;
+    flex-direction: column;
+  }
+  .categories .categories-wrap .catg-card {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+  }
+  .set-rate .set-rate-wrap .set-rate-card {
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+  }
+  .trust .trust-wrap .trust-card {
+    flex-direction: column;
+  }
+  .how-we-work .how-we-work-wrap .how-work-card {
+    flex-direction: column;
+  }
+  .categories .catg-item-details {
+    flex-direction: column;
+  }
+  .categories .catg-item-details .details-image img {
+    padding: 0;
+  }
+  .student-count .student-count-wrap {
+    gap: 3.2rem;
+    padding-top: 8rem;
+  }
+  .student-count .student-count-wrap p {
+    font-size: 1.6rem;
+  }
+}/*# sourceMappingURL=main.css.map */

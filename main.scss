@@ -1,0 +1,508 @@
+@import url("https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@400;700&family=Poppins&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+// global css
+
+.container {
+  max-width: 125rem;
+  margin: 0 auto;
+}
+.btn {
+  padding: 0.8rem 1.2rem;
+  outline: transparent;
+  border: transparent;
+  border-radius: 1rem;
+  font-size: 1.6rem;
+}
+.btn-white {
+  background-color: white;
+}
+.btn-yellow {
+  background-color: rgb(255, 217, 0);
+}
+
+// header section start
+
+.header-wrapper {
+  background-color: black;
+  color: white;
+  .header-card,
+  .right-sec {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+  }
+  .header-card {
+    .left-logo {
+      font-size: 3.2rem;
+      font-weight: bold;
+    }
+    .right-sec {
+      gap: 2rem;
+      p {
+        font-size: 1.6rem;
+      }
+    }
+  }
+}
+
+// banner section
+
+.banner {
+  background: #000;
+  color: white;
+  .welcome-site-box {
+    padding-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .banner-details {
+      width: 80%;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 1rem;
+      P {
+        font-size: 1.6rem;
+      }
+      .welcome-title {
+        font-size: 3.4rem;
+        font-weight: bold;
+      }
+      .welcome-info {
+        font-size: 2.2rem;
+      }
+      .btn {
+        padding: 0.8rem 6rem;
+        margin-bottom: 1rem;
+      }
+    }
+    .person-image {
+      width: 20%;
+      img {
+        width: 100%;
+      }
+    }
+  }
+}
+// delivery sction start
+
+.delivery {
+  margin-top: 6rem;
+  .delivery-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    p {
+      margin-bottom: 1rem;
+      text-align: center;
+    }
+    .delivery-title {
+      font-size: 2.2rem;
+      font-weight: bold;
+    }
+    .delivery-sub-titles {
+      font-size: 1.6rem;
+    }
+    .delivery-cost {
+      font-size: 2.4rem;
+      font-weight: bold;
+    }
+  }
+}
+
+// categories section start
+
+.categories {
+  margin-top: 4rem;
+  .categories-wrap {
+    .catg-title {
+      text-align: center;
+      font-size: 3.4rem;
+      font-weight: bold;
+    }
+    .catg-card {
+      margin-top: 2rem;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      .catg-items {
+        width: 25rem;
+        background-color: white;
+        border: 0.1rem solid grey;
+        padding: 1rem 1.2rem;
+        border-radius: 1rem;
+        img {
+          width: 100%;
+          height: 10.2rem;
+        }
+      }
+    }
+  }
+  .catg-item-details {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .details-image {
+      flex-basis: 40%;
+      img{
+        width: 100%;
+        padding: 14rem;
+    }
+      }
+    }
+    .details-info {
+      flex-basis: 60%;
+      .info-title {
+        font-weight: bold;
+        font-size: 2rem;
+      }
+      .info-des {
+        font-size: 1.6rem;
+        margin: 1rem 0;
+      }
+      button {
+        color: rgb(255, 217, 0);
+        background-color: transparent;
+      }
+    }
+  }
+
+// set-rate section start
+
+.set-rate {
+  margin-top: 4rem;
+  .set-rate-wrap {
+    background-color: rgb(238, 237, 237);
+    padding: 2rem 6rem;
+    border-radius: 2rem;
+    .set-rate-title {
+      text-align: center;
+      font-size: 2.4rem;
+      font-weight: bold;
+    }
+    .set-rate-card {
+      margin-top: 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 8rem;
+      .set-rate-items {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border: 0.1rem solid;
+        padding: 1rem 6.2rem;
+        border-radius: 2rem;
+        p {
+          text-align: center;
+        }
+        .rate-info {
+          .rate-info-title {
+            margin-bottom: 1rem;
+          }
+        }
+        &:hover {
+          background-color: rgb(255, 217, 0);
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}
+
+// trust section
+
+.trust {
+  margin-top: 4rem;
+  background: url(../images/Mask\ Group\ 163.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  .trust-wrap {
+    .trust-title {
+      font-size: 2.2rem;
+      font-weight: bold;
+      text-align: center;
+      margin-bottom: 1rem;
+    }
+    .trust-info {
+      font-size: 1.6rem;
+      text-align: center;
+    }
+    .trust-card {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 71%;
+      margin: 0 auto;
+      .trust-box {
+        border-radius: 1rem;
+        border: 1px solid;
+        padding: 5rem 4rem;
+        flex-basis: 50%;
+        background-color: yellow;
+        text-align: center;
+        font-size: 1.6rem;
+        .symbol {
+          font-size: 8rem;
+          font-weight: bold;
+        }
+        .writer {
+          font-weight: bold;
+        }
+      }
+      .trust-img {
+        flex-basis: 50%;
+        img {
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+
+// how work section
+.how-we-work{
+  margin-top: 4rem;
+  .how-we-work-wrap{
+    .title{
+      font-size: 2.4rem;
+      font-weight: bold;
+      text-align: center;
+      margin-bottom: 1rem;
+    }
+    .info{
+      text-align: center;
+      font-size: 1.6rem;
+    }
+    .how-work-card{
+      margin-top: 2rem;
+      display: flex;
+      align-items: center;
+      background:rgb(204, 202, 202);
+      padding: 1rem 2rem;
+      .left-info-sec{
+        flex-basis: 40%;
+        .left-info-box{
+          margin-bottom: 1.2rem;
+         .info-title{
+          font-weight: bold;
+          font-size: 2rem;
+         }
+         .info-detail{
+          font-size: 1.6rem;
+         }
+        }
+      }
+      .right-img-sec{
+        flex-basis: 60%;
+        img{
+          width: 100%;
+          padding: 2rem;
+        }
+      }
+    }
+  }
+}
+
+// paid banner section
+
+.paid-banner{
+  margin-top: 4rem;
+  background: url(../images/woman-taking-e-learning-courses.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 12rem 6rem;
+  .paid-wrap{
+    .paid-title{
+      font-size: 3rem;
+      color: white;
+      font-weight: bold;
+    }
+    .paid-info{
+      color: white;
+      font-size: 1.6rem;
+      margin: 1rem 0;
+    }
+    button{
+      margin-top: 1rem;
+      padding: .8rem 6rem;
+    }
+  }
+}
+
+// student count section
+.student-count{
+  margin-top: 4rem;
+  background-image: url(../images/cvbnm.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: 35vh;
+    .student-count-wrap{
+      display: flex;
+      justify-content: center;
+      gap: 12rem;
+    padding-top: 5rem;
+    padding-left: 6rem;
+    p{
+      font-size: 3rem;
+      font-weight: bold;
+      text-align: center;
+      span{
+        font-size: 2rem;
+      }
+    }
+    }
+}
+
+// free account section
+.free-account{
+  margin-top: 4rem;
+  // background: url();
+  background-image:
+    linear-gradient(to bottom, rgba(71, 72, 77, 0.37), rgba(87, 82, 85, 0.466)),
+    url('../images/Mask\ Group\ 155.png');
+  background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 12rem 6rem;
+    .free-account-wrap{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .free-account-title{
+    font-size: 3rem;
+    color: white;
+    font-weight: bold;
+  }
+  .free-account-info{
+    color: white;
+      font-size: 1.6rem;
+      margin: 1rem 0;
+  }
+    }
+}
+
+// footer section
+
+footer{
+  background-color: black;
+  padding: 2rem 6rem;
+  .footer-wrap{
+    display: flex;
+    color: white;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    .footer-items{
+      flex-basis: 25%;
+      ul{
+        li{
+          list-style: none;
+          font-size: 1.4rem;
+        }
+        .footer-title{
+          font-size: 2rem;
+          font-weight: bold;
+          margin-bottom: 2rem;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  html{
+    font-size: 45%;
+  }
+  .header-wrapper{
+    .header-card{
+      display: block;
+      .left-logo{
+        text-align: center;
+      }
+      .right-sec {
+       display: none;
+    }
+    }
+  }  
+  .banner{
+    .welcome-site-box {
+      justify-content: center;
+      flex-direction: column;
+    }
+  }
+  .categories{
+    .categories-wrap{
+      .catg-card {
+        margin-top: 2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 2rem;
+    }
+    }
+  }  
+  .set-rate {
+    .set-rate-wrap {
+      .set-rate-card {
+        justify-content: center;
+        gap: 2rem;
+        flex-wrap: wrap;
+      }
+    }
+  }
+  .trust{
+    .trust-wrap {
+      .trust-card{
+        flex-direction: column;
+          }
+    }
+  }
+  
+.how-we-work{
+  .how-we-work-wrap{
+    .how-work-card {
+      flex-direction: column; 
+    }
+  }
+}
+.categories{
+  .catg-item-details {
+    flex-direction: column;
+    .details-image{
+      img{
+        padding: 0;
+      }
+    }
+  }
+} 
+.student-count{
+  .student-count-wrap {
+    gap: 3.2rem;
+    padding-top: 8rem;
+    p{
+      font-size: 1.6rem;
+    }
+  }
+} 
+}
